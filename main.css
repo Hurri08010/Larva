@@ -1,0 +1,103 @@
+
+
+body{
+    margin:0;
+    padding:0;
+}
+.container-fluid{
+
+ padding:0px;
+
+    border:2px solid green
+ 
+   
+}
+
+.row{
+    margin: 0;
+}
+
+
+nav{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    /* border:2px solid green; */
+    height:12vh;
+    width:25%;
+    padding:5px
+  
+}
+
+.btn{
+  
+    height:8vh;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+   
+    font-weight: 600;
+}
+
+.fa-square-phone {
+    /* border: 2px solid red; */
+    width:30%;
+ /* font-size:30px; */
+}
+
+/* .bd{
+  
+   border: 2px solid red;
+  
+    background-image: url(./Rectangle\ 63.svg);
+    background-repeat: no-repeat;
+   background-size: 100%;
+} */
+
+.fd{
+    padding:0
+}
+
+
+
+.dd{
+    padding:0;
+    border: 2px solid red;
+    
+     /* background-image: url(./image\ 59.svg); */
+     /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* margin-top: 55px; */
+ }
+
+ .td{    
+
+    margin-left:20px;
+    border: 2px solid green;
+ }
+
+
+ .sec{
+    background: linear-gradient(89.37deg, #C6C0B6 39.58%, rgba(237, 237, 237, 0.47) 98.5%);
+ }
+
+.ic{
+    margin-top: 50px;
+    margin-left:10px
+}
+
+.dfg{
+    border:2px solid blueviolet;
+
+}
+
+.df{
+    border:2px solid blue;
+
+}
+
