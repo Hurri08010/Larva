@@ -6,25 +6,12 @@ body{
 }
 .container-fluid{
 
- padding:0px;
-
-    /* border:2px solid green */
- 
-   
+ padding:0px;   
 }
 
 .row{
     margin: 0;
 }
-
-
-/* nav{
-    
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    
-} */
 
 
 .logo{
@@ -58,13 +45,13 @@ body{
 
 .dd{
     padding:0;
-    /* border: 2px solid red; */
+
  }
 
  .td{    
 
     margin-left:20px;
-    /* border: 2px solid green; */
+
  }
 
 
@@ -77,15 +64,7 @@ body{
     margin-left:10px
 }
 
-.dfg{
-    /* border:2px solid blueviolet; */
 
-}
-
-.df{
-    /* border:2px solid blue; */
-
-}
 
 tr{
     border:0px solid black
@@ -97,3 +76,22 @@ td{ border:2px solid black
 
 }
 
+/* .btn:hover{
+    background-color: #ffa60083;
+} */
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:501px){
+.df{
+    font-size:0.8rem
+}
+}
+
+
+@media only screen and (min-width:502px){
+    .df{
+        font-size:1.2rem
+    }
+    }
