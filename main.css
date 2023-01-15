@@ -1,5 +1,4 @@
 
-
 body{
     margin:0;
     padding:0;
@@ -11,30 +10,9 @@ body{
 
 .row{
     margin: 0;
+
 }
 
-
-.logo{
-    height:12vh;
-    width:25%;
-    padding:5px
-  
-}
-
-.btn{
-  
-    height:8vh;
-    border-radius: 30px;
-    display:flex;
-    align-items: center;
-   
-    font-weight: 600;
-}
-
-.fa-square-phone {
-    width:30%;
- 
-}
 
 
 .fd{
@@ -47,13 +25,7 @@ body{
     padding:0;
 
  }
-
- .td{    
-
-    margin-left:20px;
-
- }
-
+ 
 
  .sec{
     background: linear-gradient(89.37deg, #C6C0B6 39.58%, rgba(237, 237, 237, 0.47) 98.5%);
@@ -64,34 +36,258 @@ body{
     margin-left:10px
 }
 
-
-
-tr{
-    border:0px solid black
-}
-
-
-
-td{ border:2px solid black
+.btt{
+ 
+    color:#252525;
 
 }
+.jln{
+    border-radius: 30px;
+}
+.bt2{
+    color:#FFA500
+}
 
-/* .btn:hover{
-    background-color: #ffa60083;
-} */
 
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width:501px){
+
+@media only screen and (min-width:200px){
+    .df{
+        font-size:0.8rem;
+        
+    }
+    
+    
+    .jl{
+        font-size: 0.5em;
+    }
+    
+  
+    
+    .btt{
+        font-size:0.8em;
+        font-weight:500; 
+        line-height: 0;
+    }
+    }
+
+
+    @media only screen and (min-width:320px){
+        .df{
+            font-size:0.8rem;
+            
+        }
+        
+        
+        .jl{
+            font-size: 0.5em;
+        }
+        
+        
+        .btt{
+            font-size:0.8em;
+            font-weight:500; 
+            line-height: 0;
+        }
+        }
+    
+    
+
+    @media only screen and (min-width:399px){
+        .df{
+            font-size:0.8rem;
+            
+        }
+        
+        
+        .jl{
+            font-size: 0.6em;
+        }
+        
+        
+        .btt{
+            font-size:1em;
+            font-weight:500; 
+            line-height: 0.3;
+        }
+        }
+
+
+
+
+
+
+@media only screen and (min-width:450px){
 .df{
-    font-size:0.8rem
+    font-size:0.8rem;
+    
 }
+
+.jl{
+    font-size: 0.8em;
 }
 
 
-@media only screen and (min-width:502px){
+.btt{
+    font-size:1.3em;
+    font-weight:500; 
+    line-height: 0.3;
+}
+}  
+
+@media only screen and (min-width:500px){
+   
+    
+    .btt{
+       
+        
+        line-height: 0.5;
+    }
+    }  
+
+
+@media only screen and (min-width:600px){
+    .df{
+        font-size:1.1rem
+    }
+
+    
+    .jl{
+        font-size: 1.1em;
+    }
+
+    .btt{
+        font-size:1.4em;
+        font-weight:500; 
+        line-height: 0.7;
+    }
+    }
+
+
+@media only screen and (min-width:650px){
+    .df{
+        font-size:1rem
+    }
+
+     .jl{
+        font-size: 1.2em;
+    }
+
+    .btt{
+        font-size:1.5em;
+        font-weight:500;
+        line-height: 0.8;
+    }
+    }
+@media only screen and (min-width:720px){
+    .df{
+        font-size:1rem
+    }
+
+     .jl{
+        font-size: 1.4em;
+    }
+
+    .btt{
+        font-size:1.7em;
+        font-weight:500; 
+        line-height: 0.8;
+    }
+    }
+@media only screen and (min-width:790px){
+    .df{
+        font-size:1rem
+    }
+
+     .jl{
+        font-size: 1.5em;
+    }
+
+    .btt{
+        font-size:1.8em;
+        font-weight:500;
+    }
+    }
+@media only screen and (min-width:840px){
+    .df{
+        font-size:1.1rem
+    }
+
+     .jl{
+        font-size: 1.5em;
+    }
+
+    .btt{
+        font-size:2em;
+        font-weight:500; 
+    }
+    }
+@media only screen and (min-width:900px){
     .df{
         font-size:1.2rem
     }
+
+     .jl{
+        font-size: 1.5em;
+    }
+
+    .btt{
+        font-size:2.2em;
+        font-weight:500; 
+    }
+    }
+@media only screen and (min-width:1000px){
+    .df{
+        font-size:1.2rem
+    }
+
+     .jl{
+        font-size: 1.5em;
+    }
+
+    .btt{
+        font-size:2.2em;
+        font-weight:500; 
+        line-height: 1;
+    }
+    }
+@media only screen and (min-width:1100px){
+    .df{
+        font-size:1.2rem
+    }
+
+     .jl{
+        font-size: 1.5em;
+    }
+
+    .btt{
+        font-size:2.5em;
+        font-weight:500; 
+    }
+    }
+
+
+@media only screen and (min-width:1200px){
+    .df{
+        font-size:1.5rem
+    }
+
+     .jl{
+        font-size: 1em;
+    }
+
+    .btt{
+        font-size:3.2em;
+        font-weight:500; 
+    }
+    }
+
+
+    @media only screen and (max-width:575px){
+
+        .yll{
+            height:40vh
+        }
     }
