@@ -99,6 +99,11 @@ white-space: wrap;
     }
 }
 
+.ick{
+    position:relative
+}
+
+
 
 .fnt{
     font-size:1.8rem;
