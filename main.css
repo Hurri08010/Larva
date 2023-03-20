@@ -40,7 +40,7 @@ body{
  
     color:#252525;
 white-space: wrap;
-    animation: myanim  3s ease 200ms backwards;
+    animation: myanim  3s ease;
     
     /* overflow: hidden; */
 
@@ -132,13 +132,13 @@ animation-iteration-count: infinite;
 @keyframes myanim{
     
     from{
-        /* transform:translate(-10px, -5px) ; */
+        transform:translate(-10px, -5px) ;
         opacity: 0;
        
     }
 
     to{
-        /* transform:translate(0px,0px); */
+        transform:translate(0px,0px);
         opacity: 1;
     }
 
