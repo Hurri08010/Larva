@@ -36,11 +36,15 @@ body{
     margin-left:10px
 }
 
+.trd{
+   
+    animation: myanim  10s ease;
+}
 .btt,img{
- 
+
     color:#252525;
 white-space: wrap;
-    animation: myanim  3s ease;
+    
     
     /* overflow: hidden; */
 
@@ -133,7 +137,7 @@ animation-iteration-count: infinite;
     
     from{
         /* transform:translate(-10px, -5px) ; */
-        opacity: 0;
+        opacity: -2;
        
     }
 
