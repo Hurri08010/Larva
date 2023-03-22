@@ -44,7 +44,7 @@ margin:0;
 }
 
 .trd{
-    animation: myanim  10s ease;
+    animation: myanim  1s ease;
 }
 .btt,img{
 
@@ -143,12 +143,12 @@ animation-iteration-count: infinite;
     
     from{
         transform:translate(-10px, -5px) ;
-        opacity: -1;
+        opacity: -5;
        
     }
 
     to{
-        transform:translate(0px,0px);
+        transform:translate(0px);
         opacity: 1;
     }
 
